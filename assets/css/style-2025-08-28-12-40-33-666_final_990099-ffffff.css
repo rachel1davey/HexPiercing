@@ -89,4 +89,34 @@
 
 /*# sourceMappingURL=style-2025-08-28-12-40-33-666_button.css.map */
 
+    #HeroCarousel {
+      height: 40vh;
+      overflow: hidden;
+    }
 
+    #HeroCarousel .carousel-item {
+      height: 40vh;
+    }
+
+    #HeroCarousel .carousel-item img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 5%;
+    }
+
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+
+.navbar {
+  min-height: 100px !important;
+  height: 100px !important;
+  max-height: 100px !important;
+}
